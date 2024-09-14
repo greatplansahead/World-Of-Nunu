@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
-<body style="font-family:Market Felt,fantasy; background-image:url(./pexels-padrinan-255379.jpg); height:100vh">
-    <div style="border: thick, double, rgb(3, 46, 133); width: 300px;padding: 16px; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #d5f4e6;">
+<body style=" background-image:url(./pexels-padrinan-255379.jpg); height:100vh">
+    <div style="display:flex;justify-content: space-between;background-color:rgba(0,0,0,0.15); color:aliceblue; padding: 2px; gap: 20px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width:100%; position: absolute; border-radius: 16px">
+        <p style="margin-right: 16px; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;" id="time">Time</p>
+        <p style="margin-right: 16px; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;">WorldOfNunu</p>
+    <p style="margin-right: 16px; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;">status:busy</p>
+    </div>
+    <div style="border: thick, double, rgb(3, 46, 133); width: 300px;padding: 16px; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #8ff2ed;">
     <img style="width: 82px;height:82px; object-fit: cover; alt: Avatar; border-radius: 50%; margin-left:auto;margin-right:auto; display: block" src="./mypic.jpeg" />
-    <h1 style="margin: 4px; padding: 4px;text-align:center">WorldOfNunu </h1>
-<p style="margin: 4px; padding: 4px;text-align:center">Hey! I'm Nunu and welcome to<dnf> my world</dnf></p>
-<a href="https://www.instagram.com/iggytheemiracle/" style="text-align:center">My instagram</a>
+    <h1 style="margin: 4px; padding: 4px;text-align:center;font-family:Snell Roundhand,monospace;">WorldOfNunu </h1>
+<p style="margin: 4px; padding: 4px;text-align:center; font-family:'Courier New', Courier, monospace ">Hey! I'm Nunu and welcome to<u> my world</u></p>
+<p style=" border: thick; text-align: center;color: black;padding: 6px 10px; text-decoration: none; display: inline-block; background-color: pink; "><a href="https://www.instagram.com/iggytheemiracle/" style="color: white;text-decoration: none;">My instagram</a></p>
 </div>
+<script>
+    setInterval(function(){
+        document.querySelector("#time").innerHTML = new Date().toLocaleString();
+    }, 1000);
+</script>
 </body>
 </html>
