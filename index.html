@@ -6,16 +6,18 @@
         <p style="margin-right: 16px; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;">WorldOfNunu</p>
     <p style="margin-right: 16px; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;">status:busy</p>
     </div>
-    <div style="border: thick, double, rgb(3, 46, 133); width: 300px;padding: 16px; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #8ff2ed;">
-    <img style="width: 82px;height:82px; object-fit: cover; alt: Avatar; border-radius: 50%; margin-left:auto;margin-right:auto; display: block" src="./mypic.jpeg" />
+    <div  id="welcome" style="border: thick, double, rgb(3, 46, 133); width: 300px;padding: 16px; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #8ff2ed;">
+<p id="welcomeheader"> handle </p>
+        <img  style="width: 82px;height:82px; object-fit: cover; alt: Avatar; border-radius: 50%; margin-left:auto;margin-right:auto; display: block" src="./mypic.jpeg" />
     <h1 style="margin: 4px; padding: 4px;text-align:center;font-family:Snell Roundhand,monospace;">WorldOfNunu </h1>
-<p style="margin: 4px; padding: 4px;text-align:center; font-family:'Courier New', Courier, monospace ">Hey! I'm Nunu and welcome to<u> my world</u></p>
-<p style=" border: thick; text-align: center;color: black;padding: 6px 10px; text-decoration: none; display: inline-block; background-color: pink; "><a href="https://www.instagram.com/iggytheemiracle/" style="color: white;text-decoration: none;">My instagram</a></p>
+<p  style="margin: 4px; padding: 4px;text-align:center; font-family:'Courier New', Courier, monospace ">Hey! I'm Nunu and welcome to<u> my world</u></p>
+<p  style=" border: thick; text-align: center;color: black;padding: 8px 10px; text-decoration: none; display: inline-block; background-color: pink; "><a href="https://www.instagram.com/iggytheemiracle/" style="color: white;text-decoration: none;">My instagram</a></p>
 </div>
 <script>
     setInterval(function(){
         document.querySelector("#time").innerHTML = new Date().toLocaleString();
     }, 1000);
 </script>
+<script src="script.js"></script>
 </body>
 </html>
