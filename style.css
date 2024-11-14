@@ -55,3 +55,8 @@
     margin-right:auto;
     display: block;
 }
+
+.class{
+    border-color:red;
+    border-radius: 16px;
+}

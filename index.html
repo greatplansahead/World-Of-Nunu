@@ -4,27 +4,35 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 <body style=" background-image:url(./pexels-padrinan-255379.jpg); height:100vh">
+    
     <div class="status" >
         <p class="statusp" id="time">Time</p>
         <p id="welcomeopen" class="statusp" style="cursor:pointer">WorldOfNunu</p>
         <p class="statusp">status:busy</p>
     </div>
-    <div id="desktopApps" style="padding-top: 64px; padding-left: 16px">
-       <div style="text-align:center; padding: 16px; filter: drop-shadow(0 0 0px black); width: fit-content">
+    
+    <div class="selected" id="desktopApps" style="padding-top: 64px; padding-left: 16px">
+       
+        <div style="text-align:center; padding: 16px; filter: drop-shadow(0 0 0px black); width: fit-content">
         <img src="./blocks.png" style="alt: Avatar;width: 64px; height: 64px; border-radius: 6px">
         <p style="color:beige; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Childhood</p>
        </div>
+   
     </div>
+    
     <div class="window" id="welcome" >
+        
         <div class="draggableheader" id="welcomeheader" >
     <p style="border-radius: 16px;backdrop-filter:blur; padding:4px; margin:4px; justify-content: center; font-family:'Courier New', Courier, monospace; color: white; display: flex;"> Welcome </p>
-<img class="closebutton" src="./cross.png"> 
-</div>       
-<img class="pfpic" src="./mypic.jpeg" />
+     <img class="closebutton" src="./cross.png"> 
+        </div> 
+
+    <img class="pfpic" src="./mypic.jpeg" />
     <h1 style="margin: 4px; padding: 4px;text-align:center;font-family:Snell Roundhand,monospace;">WorldOfNunu </h1>
-<p  style="margin: 4px; padding: 4px;text-align:center; font-family:'Courier New', Courier, monospace ">Hey! I'm Nunu and welcome to<u> my world</u><br>Feel free to close this tab and explore :)</p>
+<p style="margin: 4px; padding: 4px;text-align:center; font-family:'Courier New', Courier, monospace ">Hey! I'm Nunu and welcome to<u> my world</u><br>Feel free to close this tab and explore :)</p>
 <p style="border-radius: 16px; border: thick; text-align: center;color: black;padding: 8px 5px; text-decoration: none; display: block; background-color: red; justify-content: center; align-items:center; margin: auto;"><a href="https://www.instagram.com/iggytheemiracle/" style="color: white;text-decoration: none;">Follow me on Instagram</a></p>
 </div>
+
 <script>   
  setInterval(function(){
     document.querySelector("#time").innerHTML = new Date().toLocaleString();
